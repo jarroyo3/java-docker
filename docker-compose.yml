@@ -22,5 +22,3 @@ services:
     command: mvn clean spring-boot:run
     depends_on:
     - hk-mysql
-    links:
-    - hk-mysql:hk-mysql
